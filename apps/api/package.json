@@ -1,0 +1,44 @@
+{
+  "name": "@desk/api",
+  "private": true,
+  "version": "0.0.1",
+  "description": "desk-community Midway API",
+  "main": "bootstrap.js",
+  "midway": {
+    "sourceDir": "src"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=local ../../node_modules/.bin/midway-bin dev --ts",
+    "build": "../../node_modules/.bin/midway-bin build -c",
+    "start": "NODE_ENV=production node ./bootstrap.js"
+  },
+  "dependencies": {
+    "@midwayjs/bootstrap": "^3.19.0",
+    "@midwayjs/core": "^3.19.0",
+    "@midwayjs/cross-domain": "^3.19.0",
+    "@midwayjs/info": "^3.19.0",
+    "@midwayjs/jwt": "^3.19.0",
+    "@midwayjs/koa": "^3.19.0",
+    "@midwayjs/logger": "^3.4.2",
+    "@midwayjs/typeorm": "^3.19.0",
+    "@midwayjs/upload": "^3.19.0",
+    "@midwayjs/static-file": "^3.19.0",
+    "@midwayjs/validate": "^3.19.0",
+    "bcryptjs": "^2.4.3",
+    "ioredis": "^5.4.2",
+    "koa-bodyparser": "^4.4.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20",
+    "sql.js": "^1.11.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@midwayjs/cli": "^2.1.1",
+    "@midwayjs/mock": "^3.19.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/node": "^22.10.2",
+    "cross-env": "^7.0.3",
+    "typescript": "~5.6.3"
+  }
+}

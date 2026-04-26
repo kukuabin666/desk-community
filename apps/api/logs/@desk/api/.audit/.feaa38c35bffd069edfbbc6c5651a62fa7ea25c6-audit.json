@@ -1,0 +1,35 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 7
+  },
+  "auditLog": "/Users/kukuabin/Desktop/study/desk-community/apps/api/logs/@desk/api/.audit/.feaa38c35bffd069edfbbc6c5651a62fa7ea25c6-audit.json",
+  "files": [
+    {
+      "date": 1776171659910,
+      "name": "/Users/kukuabin/Desktop/study/desk-community/apps/api/logs/@desk/api/midway-core.log.2026-04-14",
+      "hash": "16198e1d2bea52191990b370540c611c"
+    },
+    {
+      "date": 1776221890638,
+      "name": "/Users/kukuabin/Desktop/study/desk-community/apps/api/logs/@desk/api/midway-core.log.2026-04-15",
+      "hash": "7b666e60231ce8259c5766299a9f0786"
+    },
+    {
+      "date": 1776414792981,
+      "name": "/Users/kukuabin/Desktop/study/desk-community/apps/api/logs/@desk/api/midway-core.log.2026-04-17",
+      "hash": "102b7725bef13a93a3995a8fec7f3526"
+    },
+    {
+      "date": 1776671459250,
+      "name": "/Users/kukuabin/Desktop/study/desk-community/apps/api/logs/@desk/api/midway-core.log.2026-04-20",
+      "hash": "a28f2f7b2f29c15cd89e289847fd64f0"
+    },
+    {
+      "date": 1776743092941,
+      "name": "/Users/kukuabin/Desktop/study/desk-community/apps/api/logs/@desk/api/midway-core.log.2026-04-21",
+      "hash": "19a611470af88c909e19487a9549adf0"
+    }
+  ],
+  "hashType": "md5"
+}

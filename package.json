@@ -1,0 +1,20 @@
+{
+  "name": "desk-community",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"npm run dev -w @desk/api\" \"npm run dev -w @desk/web\"",
+    "dev:admin": "concurrently -n api,admin -c blue,magenta \"npm run dev -w @desk/api\" \"npm run dev -w @desk/admin\"",
+    "dev:all": "concurrently -n api,web,admin -c blue,green,magenta \"npm run dev -w @desk/api\" \"npm run dev -w @desk/web\" \"npm run dev -w @desk/admin\"",
+    "dev:api": "npm run dev -w @desk/api",
+    "dev:web": "npm run dev -w @desk/web",
+    "build": "npm run build -w @desk/api && npm run build -w @desk/web && npm run build -w @desk/admin",
+    "start:api": "npm run start -w @desk/api"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

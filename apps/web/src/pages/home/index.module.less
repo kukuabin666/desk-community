@@ -1,0 +1,57 @@
+.feedGrid {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+.feedGridDouble {
+  grid-template-columns: 1fr 1fr;
+}
+
+.feedGridSingle {
+  grid-template-columns: 1fr;
+}
+
+.postCard {
+  background: @desk-color-page;
+  border-radius: @desk-radius-card;
+  overflow: hidden;
+  box-shadow: @desk-shadow-card;
+}
+
+.coverWrap {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background: @desk-color-muted-bg;
+}
+
+.title {
+  padding: 8px;
+  font-size: 13px;
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 8px 8px;
+  font-size: 12px;
+  color: @desk-color-text-secondary;
+}
+
+.authorNick {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.avatarRound {
+  border-radius: @desk-radius-pill;
+}
+
+.endHint {
+  text-align: center;
+  padding: 12px;
+  color: @desk-color-text-muted;
+}

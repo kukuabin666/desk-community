@@ -1,0 +1,35 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 7
+  },
+  "auditLog": "/Users/kukuabin/Desktop/study/desk-community/apps/api/logs/@desk/api/.audit/.bc17896bfe0baceb441a5abcd462feaef035cc1a-audit.json",
+  "files": [
+    {
+      "date": 1776171659912,
+      "name": "/Users/kukuabin/Desktop/study/desk-community/apps/api/logs/@desk/api/common-error.log.2026-04-14",
+      "hash": "65266eb371ae878174db1c1b49a9dfe4"
+    },
+    {
+      "date": 1776221890640,
+      "name": "/Users/kukuabin/Desktop/study/desk-community/apps/api/logs/@desk/api/common-error.log.2026-04-15",
+      "hash": "c15064550bf52545b9d206b69ceeaa11"
+    },
+    {
+      "date": 1776414792984,
+      "name": "/Users/kukuabin/Desktop/study/desk-community/apps/api/logs/@desk/api/common-error.log.2026-04-17",
+      "hash": "1eec83c13a6a73c09ebf3db8c795ff80"
+    },
+    {
+      "date": 1776671459252,
+      "name": "/Users/kukuabin/Desktop/study/desk-community/apps/api/logs/@desk/api/common-error.log.2026-04-20",
+      "hash": "d281ecea2756cae402abc9c179541ec5"
+    },
+    {
+      "date": 1776743092945,
+      "name": "/Users/kukuabin/Desktop/study/desk-community/apps/api/logs/@desk/api/common-error.log.2026-04-21",
+      "hash": "482f7045b1175b8f6b245ad4ffad28e7"
+    }
+  ],
+  "hashType": "md5"
+}

@@ -1,0 +1,15 @@
+2026-04-20 15:55:43.416 WARN 25938 [-/::ffff:127.0.0.1/-/3ms GET /] NotFoundError: / Not Found
+    at notFound (/Users/kukuabin/Desktop/study/desk-community/node_modules/@midwayjs/koa/dist/framework.js:137:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/kukuabin/Desktop/study/desk-community/apps/api/src/configuration.ts:32:7
+    at async /Users/kukuabin/Desktop/study/desk-community/node_modules/koa-static-cache/index.js:41:56
+    at async CorsMiddleware.compatibleMiddleware (/Users/kukuabin/Desktop/study/desk-community/node_modules/@midwayjs/cross-domain/dist/middleware/cors.js:33:20)
+    at async /Users/kukuabin/Desktop/study/desk-community/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kukuabin/Desktop/study/desk-community/node_modules/koa-bodyparser/index.js:78:5)
+    at async session (/Users/kukuabin/Desktop/study/desk-community/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kukuabin/Desktop/study/desk-community/node_modules/@midwayjs/core/dist/baseFramework.js:273:40
+    at async /Users/kukuabin/Desktop/study/desk-community/node_modules/@midwayjs/core/dist/baseFramework.js:267:24 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}

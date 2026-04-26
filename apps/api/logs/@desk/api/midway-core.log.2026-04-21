@@ -1,0 +1,4 @@
+2026-04-21 11:45:58.021 INFO 3303 [midway:static] starting static serve /uploads -> /Users/kukuabin/Desktop/study/desk-community/apps/api/uploads/public
+2026-04-21 11:50:41.152 INFO 8545 [midway:static] starting static serve /uploads -> /Users/kukuabin/Desktop/study/desk-community/apps/api/uploads/public
+2026-04-21 11:52:01.222 INFO 15784 [midway:static] starting static serve /uploads -> /Users/kukuabin/Desktop/study/desk-community/apps/api/uploads/public
+2026-04-21 11:53:22.532 INFO 19280 [midway:static] starting static serve /uploads -> /Users/kukuabin/Desktop/study/desk-community/apps/api/uploads/public

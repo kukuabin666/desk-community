@@ -1,0 +1,16 @@
+// 全局 Less 变量（由 vite 注入到每个 .module.less，勿在此写会污染全局的选择器）
+// 尺寸单位与 postcss-px-to-viewport 的 viewportWidth: 375 对齐，按 375 设计稿习惯写 px 即可。
+@desk-color-page: #fff;
+@desk-color-muted-bg: #f5f5f5;
+@desk-color-page-bg: #f7f8fa;
+@desk-color-text: #333;
+@desk-color-text-secondary: #666;
+@desk-color-text-muted: #999;
+@desk-color-primary: #1677ff;
+@desk-radius-card: 10px;
+@desk-radius-sm: 8px;
+/* 圆形头像等用 50%，勿用 999px（会被 postcss 转成巨大 vw） */
+@desk-radius-pill: 50%;
+@desk-shadow-card: 0 1px 4px rgba(0, 0, 0, 0.06);
+@desk-spacing-page: 12px;
+@desk-spacing-block: 16px;
